@@ -1,0 +1,22 @@
+.noticia-principal {
+    background: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia-principal img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+
+.noticia-principal {
+    flex-direction: row;
+}
+
+.noticia-principal img {
+    width: 200px;
+}
+}
